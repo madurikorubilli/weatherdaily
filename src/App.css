@@ -1,4 +1,4 @@
-.App {
+App {
   text-align: center;
 }
 
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchWrapper{
+  background-color: #d26c22;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+}
+
+.inputWrapper{
+  border-radius: 3px;
+  height: 25px;
+  border: 2px solid #d26c22;
+  margin-right: 5px;
+}
+
+.calender{
+  width: 200px;
+  border-collapse: collapse;
+}
+.calender td{
+  text-align: center;
+}
+.headerRow{
+  background-color: #ff6600;
+}
+.calenderList{
+  margin-top: 50px;
+  display: flex;
+  gap:10px;
+  justify-content: center;
 }
